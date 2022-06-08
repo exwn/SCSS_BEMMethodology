@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic - My Web Artifact 1.0</title>
+    <link rel="icon" sizes="192x192" href="icon.svg">
+</head>
+
+<style>
+    body {
+        width: 50%;
+        margin: auto;
+    }
+
+    aside {
+        width: 15%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer,
+    aside,
+    main {
+        border: 1px solid grey;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    section {
+        display: flex;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    ol {
+        width: 50%;
+        margin: auto;
+    }
+
+    @media only screen and (max-width: 425px) {
+        body {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>Hello World!</header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../nav/about.html">About</a>
+        <a href="../nav/contact.html">Contact</a>
+    </nav>
+
+
+    <section>
+
+        <main>
+            <header>
+                <h1>Design and Development Principle</h1>
+
+                <p style="text-align: center">
+                    <mark><i>"4 Key principle how to be a good developer"</i></mark>
+                </p>
+            </header>
+
+            <article>
+                <ol>
+                    <li>Keep It Simple, Stupid (KISS)</li>
+                    <li>You Ain’t Gonna Need It (YAGNI)</li>
+                    <li>Don't Repeat Yourself (DRY)</li>
+                    <li>SOLID Principle</li>
+                    <dt>- Single Responsibility Principle.</dt>
+                    <dt>- Open/Closed Principle.</dt>
+                    <dt>- Liskov Substitution Principle.</dt>
+                    <dt>- Interface Segregation Principle.</dt>
+                    <dt>- Dependency Inversion.</dt>
+                </ol>
+                <br />
+                <details>
+                    <summary>More Detail</summary>
+                    This entry was written on June 5, 2022 <time>21.30</time>
+                </details>
+            </article>
+        </main>
+
+        <aside>
+            <a href="./main1.html" style="font-size: 8px; text-decoration: none; color: black">Lorem Ipsum</a>
+            <a href="./main2.html" style="font-size: 8px; text-decoration: none; color: black">National Anhtem</a>
+            <a href="./main3.html" style="font-size: 8px; text-decoration: none; color: black">Frontend Roadmap</a>
+            <a href="./main4.html" style="font-size: 9px; font-weight: bold">Design and Development Principle</a>
+            <a href="./main5.html" style="font-size: 8px; text-decoration: none; color: black">Next Challenge?</a>
+        </aside>
+
+    </section>
+
+
+    <footer>
+        Copyright &copy; 2022 by
+        <a href="https://www.linkedin.com/in/farix-ikhwanul-hartando/" target="_blank"
+            style="text-decoration: none; color: black">F. Ikhwanul</a>
+    </footer>
+</body>
+
+</html>

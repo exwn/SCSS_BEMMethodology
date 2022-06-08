@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic - My Web Artifact 1.0</title>
+    <link rel="icon" sizes="192x192" href="icon.svg">
+</head>
+
+<style>
+    body {
+        width: 50%;
+        margin: auto;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer,
+    aside,
+    main {
+        border: 1px solid grey;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    @media only screen and (max-width: 425px) {
+        body {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>Hello World!</header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+
+    <section>
+
+        <main>
+            <header>
+                <h1>About</h1>
+            </header>
+            <article>
+                <p>
+                    Very excited to explore something new on Web Development related topics and focused on front end web
+                    development.
+                </p>
+            </article>
+        </main>
+
+    </section>
+
+
+    <footer>
+        Copyright &copy; 2022 by
+        <a href="https://www.linkedin.com/in/farix-ikhwanul-hartando/" target="_blank"
+            style="text-decoration: none; color: black">F. Ikhwanul</a>
+    </footer>
+</body>
+
+</html>

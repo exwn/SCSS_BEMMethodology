@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic - My Web Artifact 1.0</title>
+    <link rel="icon" sizes="192x192" href="icon.svg">
+</head>
+
+<style>
+    body {
+        width: 50%;
+        margin: auto;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer,
+    aside,
+    main {
+        border: 1px solid grey;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    h1 {
+        text-align: center
+    }
+
+    @media only screen and (max-width: 425px) {
+        body {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+
+    <header>Hello World!</header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../nav/about.html">About</a>
+        <a href="../nav/contact.html">Contact</a>
+    </nav>
+
+
+    <section>
+
+        <main>
+
+            <header>
+                <h1>Work in Progress..</h1>
+
+                <p style="text-align: center; text-indent: 0;">
+                    <mark><i>"our website is coming soon"</i></mark>
+                </p>
+                <script type='text/javascript' src='https://cdn.trakteer.id/js/embed/trbtn.min.js'></script>
+
+                <center>
+                    <script type='text/javascript'>
+                        (function () {
+                            var trbtnId = trbtn.init('Support Me on Trakteer', '#be1e2d',
+                                'https://trakteer.id/ixwn/tip',
+                                'https://cdn.trakteer.id/images/embed/trbtn-icon.png', '25');
+                            trbtn.draw(trbtnId);
+                        })();
+                    </script>
+                </center>
+            </header>
+
+            <!-- <article>
+            </article> -->
+
+        </main>
+
+    </section>
+
+
+
+    <footer>
+        Copyright &copy; 2022 by
+        <a href="https://www.linkedin.com/in/farix-ikhwanul-hartando/" target="_blank"
+            style="text-decoration: none; color: black">F. Ikhwanul</a>
+    </footer>
+</body>
+
+</html>

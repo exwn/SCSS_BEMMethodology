@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic - My Web Artifact 1.0</title>
+    <link rel="icon" sizes="192x192" href="icon.svg">
+</head>
+
+<style>
+    body {
+        width: 50%;
+        margin: auto;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer,
+    aside,
+    main {
+        border: 1px solid grey;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    h1 {
+        text-align: center
+    }
+
+    @media only screen and (max-width: 425px) {
+        body {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>Hello World!</header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="./nav/about.html">About</a>
+        <a href="./nav/contact.html">Contact</a>
+    </nav>
+
+
+    <section>
+
+        <main>
+            <header>
+                <h1>Home</h1>
+            </header>
+            <article>
+                <header><b>Next Challenge?</b></header>
+                <p>
+                    My journey in may 2022..<a href="./sections/main5.html">Read More</a>
+                </p>
+            </article>
+            <article>
+                <header><b>Design and Development Principle</b></header>
+                <p>
+                    Let me introduce this insight for you..<a href="./sections/main4.html">Read More</a>
+                </p>
+            </article>
+            <article>
+                <header><b>Frontend Roadmap</b></header>
+                <p>
+                    Step by step guide to becoming a modern frontend developer in
+                    2022..<a href="./sections/main3.html">Read More</a>
+                </p>
+            </article>
+            <article>
+                <header><b>National Anhtem</b></header>
+                <p>
+                    Gimn Rossiiskoi Federatsii - Latin Transliteration..<a href="./sections/main2.html">Read More</a>
+                </p>
+            </article>
+            <article>
+                <header><b>Lorem Ipsum</b></header>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi
+                    orci, dapibus non eleifend in, porttitor vel magna...<a href="./sections/main1.html">Read More</a>
+                </p>
+            </article>
+        </main>
+
+    </section>
+
+
+    <footer>
+        Copyright &copy; 2022 by
+        <a href="https://www.linkedin.com/in/farix-ikhwanul-hartando/" target="_blank"
+            style="text-decoration: none; color: black">F. Ikhwanul</a>
+    </footer>
+</body>
+
+</html>

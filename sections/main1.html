@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic - My Web Artifact 1.0</title>
+    <link rel="icon" sizes="192x192" href="icon.svg">
+</head>
+
+<style>
+    body {
+        width: 50%;
+        margin: auto;
+    }
+
+    aside {
+        width: 15%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer,
+    aside,
+    main {
+        border: 1px solid grey;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    section {
+        display: flex;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 425px) {
+        body {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>Hello World!</header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../nav/about.html">About</a>
+        <a href="../nav/contact.html">Contact</a>
+    </nav>
+
+
+    <section>
+
+        <main>
+            <header>
+                <h1>Lorem Ipsum</h1>
+
+                <p style="text-align: center; text-indent: 0;">
+                    <mark><i>"There is no one who loves pain itself, who seeks after it and
+                            wants to have it, simply because it is pain..."</i></mark>
+                </p>
+            </header>
+
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi
+                    orci, dapibus non eleifend in, porttitor vel magna. Pellentesque
+                    iaculis arcu id vulputate condimentum. Nam non sapien eget tortor
+                    hendrerit faucibus. Vivamus vel feugiat neque, sed posuere velit.
+                    Sed sit amet massa ante. Curabitur interdum nec nulla non congue.
+                    Aliquam luctus turpis in iaculis molestie. Nulla in urna sagittis
+                    magna lobortis feugiat sit amet vitae orci. Quisque quis ante non
+                    justo pretium sagittis eu eu lacus. Morbi sed quam vitae quam
+                    consequat cursus at quis erat. Nullam arcu lacus, ultrices quis
+                    pretium vel, feugiat id nisl. Duis a tristique sem. Cras vel ligula
+                    quis risus pellentesque vehicula. Nam nisl enim, blandit non sem ut,
+                    suscipit efficitur lorem.
+                </p>
+
+                <p>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada
+                    fames ac turpis egestas. Nullam venenatis est nec venenatis cursus.
+                    Morbi gravida dignissim augue convallis malesuada. Aenean porta
+                    tristique lectus quis rutrum. Nam ut felis quis quam vulputate
+                    fermentum eget eget velit. In hac habitasse platea dictumst.
+                    Phasellus tempus ullamcorper finibus. Aliquam commodo velit non
+                    augue imperdiet tempus. Maecenas eu lorem ante.
+                </p>
+
+                <p>
+                    Nullam aliquet nisi id dapibus consequat. Cras sed sapien dolor.
+                    Fusce rhoncus ante justo. Cras odio dui, tincidunt nec tortor quis,
+                    tincidunt placerat eros. Donec iaculis velit non tempor pulvinar.
+                    Donec vel dui eu metus pretium elementum vitae eget sapien. Ut ut
+                    fringilla magna.
+                </p>
+
+                <p>
+                    Suspendisse pulvinar interdum ligula. Nullam posuere congue ante sed
+                    efficitur. Pellentesque quis metus egestas dui rutrum placerat.
+                    Curabitur non mollis neque, pulvinar volutpat enim. Sed malesuada
+                    pulvinar justo, in euismod sapien porta pharetra. Quisque vitae
+                    convallis lorem. Maecenas dapibus libero eu aliquet posuere. Ut
+                    tincidunt diam ut diam scelerisque molestie. Donec sit amet ante eu
+                    libero ultrices mollis. Pellentesque et vulputate turpis, sed varius
+                    nunc. Sed vitae diam ultricies, suscipit nibh vel, egestas dolor.
+                    Vestibulum vitae orci lacus.
+                </p>
+
+                <p>
+                    In pellentesque diam et neque aliquam pharetra et ut lorem. Fusce a
+                    consequat mauris. Suspendisse placerat semper ullamcorper. Mauris
+                    cursus elementum dui non pellentesque. Aliquam dictum turpis eu
+                    sapien malesuada porta et sit amet augue. Morbi in lobortis mauris.
+                    Orci varius natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. Proin
+                    gravida gravida tristique. Nulla elit leo, auctor sed consectetur
+                    sed, scelerisque vel velit. Mauris eget tortor volutpat, semper
+                    nulla eu, fringilla libero. Nullam consectetur sodales mattis.
+                    Integer tincidunt vel eros eu condimentum. Nam erat augue,
+                    consectetur id convallis non, lacinia pretium sem.
+                </p>
+
+                <details>
+                    <summary>More Detail</summary>
+                    This entry was written on June 4, 2022 <time>19.30</time>
+                </details>
+            </article>
+        </main>
+
+        <aside>
+            <a href="./main1.html" style="font-size: 14px; font-weight: bold;">Lorem Ipsum</a>
+            <a href="./main2.html" style="font-size: 8px;text-decoration: none; color: black">National Anhtem</a>
+            <a href="./main3.html" style="font-size: 8px;text-decoration: none; color: black">Frontend Roadmap</a>
+            <a href="./main4.html" style="font-size: 8px;text-decoration: none; color: black">Design and Development
+                Principle</a>
+            <a href="./main5.html" style="font-size: 8px;text-decoration: none; color: black">Next Challenge?</a>
+        </aside>
+
+    </section>
+
+
+    <footer>
+        Copyright &copy; 2022 by
+        <a href="https://www.linkedin.com/in/farix-ikhwanul-hartando/" target="_blank"
+            style="text-decoration: none; color: black">F. Ikhwanul</a>
+    </footer>
+</body>
+
+</html>
